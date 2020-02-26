@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "573591997364",
+    "firebase_url": "https://storeauditapp.firebaseio.com",
+    "project_id": "storeauditapp",
+    "storage_bucket": "storeauditapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573591997364:android:e84dcaa448d034f662c0e1",
+        "android_client_info": {
+          "package_name": "co.behtarinternal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573591997364-vmn54ckb920516c3vo0oqqkb7p93d7it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.behtarinternal.app",
+            "certificate_hash": "9bbe9db6d8bcc258bb90baa9a1ec2da3b2d0c143"
+          }
+        },
+        {
+          "client_id": "573591997364-7fd9ui4l2uk2hociirj6colhlrfdahas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIOBoJUZ2we4ZGGhzq4U-vEeG6lVVtqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573591997364-7fd9ui4l2uk2hociirj6colhlrfdahas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573591997364:android:833c70449b79d31b62c0e1",
+        "android_client_info": {
+          "package_name": "com.example.devappforerrors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573591997364-mg8c5j1gjtk856j2uq14fmvdlfjlhpul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devappforerrors",
+            "certificate_hash": "c6ed4c493280841db3a9c2596ec8f396c62c17ea"
+          }
+        },
+        {
+          "client_id": "573591997364-7fd9ui4l2uk2hociirj6colhlrfdahas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIOBoJUZ2we4ZGGhzq4U-vEeG6lVVtqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573591997364-7fd9ui4l2uk2hociirj6colhlrfdahas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

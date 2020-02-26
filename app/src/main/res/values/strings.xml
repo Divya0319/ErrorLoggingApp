@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DevAppForErrors</string>
+    <string name="error_detail">Error detail</string>
+    <string name="name">Name</string>
+</resources>
