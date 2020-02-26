@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                         Log.d("FirebaseError", firebaseFirestoreException.message!!)
                     } else {
                         for (email in querySnapshot!!.documentChanges) {
-                            Log.v("TEST", email.document.id)
                             list.add(email.document.id)
                         }
                         errorRecyclerView.adapter?.notifyDataSetChanged()
