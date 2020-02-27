@@ -35,11 +35,18 @@ class ErrorActivity : AppCompatActivity() {
                 } else {
                     for (doc in querySnapshot!!.documentChanges) {
                         val notifications = doc.document.toObject(ErrorListModel::class.java)
-                        list.add(notifications)
+                        if(checkConditions(notifications))
+                            list.add(notifications)
                     }
                     errorRecyclerView.adapter?.notifyDataSetChanged()
                 }
             }
+    }
+
+    private fun checkConditions(notifications: ErrorListModel): Boolean {
+        if(notifications.error.contains("NoneType", true))
+            return false
+        return true
     }
 
     private fun initializeViews() {
