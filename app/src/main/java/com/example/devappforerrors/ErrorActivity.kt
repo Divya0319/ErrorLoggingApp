@@ -1,8 +1,8 @@
 package com.example.devappforerrors
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.devappforerrors.model.ErrorAdapter
@@ -22,7 +22,7 @@ class ErrorActivity : AppCompatActivity() {
         val email = intent.getStringExtra("email")
         supportActionBar?.title = email
         initializeViews()
-        val list= mutableListOf<ErrorListModel>()
+        val list = mutableListOf<ErrorListModel>()
 
         firebaseFireStore = FirebaseFirestore.getInstance()
         errorRecyclerView.adapter = ErrorAdapter(this, list)
@@ -44,7 +44,7 @@ class ErrorActivity : AppCompatActivity() {
     }
 
     private fun checkConditions(notifications: ErrorListModel): Boolean {
-        if(notifications.error.contains("NoneType", true))
+        if (notifications.error.contains("NoneType", true))
             return false
         return true
     }
